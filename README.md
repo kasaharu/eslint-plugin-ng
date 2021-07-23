@@ -1,4 +1,4 @@
-# eslint-plugin-no-ng-no-errors-schema
+# eslint-plugin-ng
 
 description
 
@@ -10,10 +10,10 @@ You'll first need to install [ESLint](http://eslint.org):
 $ npm i eslint --save-dev
 ```
 
-Next, install `eslint-plugin-no-ng-no-errors-schema`:
+Next, install `eslint-plugin-ng`:
 
 ```
-$ npm install eslint-plugin-no-ng-no-errors-schema --save-dev
+$ npm install eslint-plugin-ng --save-dev
 ```
 
 
