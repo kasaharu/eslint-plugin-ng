@@ -1,6 +1,6 @@
 {
-  "name": "eslint-plugin-no-ng-no-errors-schema",
-  "version": "0.0.0",
+  "name": "@kasaharu/eslint-plugin-no-ng-no-errors-schema",
+  "version": "0.0.1",
   "description": "description",
   "keywords": [
     "eslint",
@@ -20,7 +20,7 @@
     "mocha": "^7.2.0"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=14.17.0"
   },
   "license": "ISC"
 }
