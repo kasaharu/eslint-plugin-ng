@@ -1,50 +1,37 @@
 # eslint-plugin-ng
 
-description
+The eslint-plugin-ng is an ESLint plugin to prevent Angular apps from using [NO_ERRORS_SCHEMA](https://angular.io/api/core/NO_ERRORS_SCHEMA).
 
 ## Installation
 
-You'll first need to install [ESLint](http://eslint.org):
+Install [ESLint](http://eslint.org) locally.
 
 ```
-$ npm i eslint --save-dev
+$ yarn add eslint -D
 ```
 
 Next, install `eslint-plugin-ng`:
 
 ```
-$ npm install eslint-plugin-ng --save-dev
+$ yarn add @kasaharu/eslint-plugin-ng -D
 ```
-
 
 ## Usage
 
-Add `no-ng-no-errors-schema` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `eslint-plugin-ng` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
 ```json
 {
-    "plugins": [
-        "no-ng-no-errors-schema"
-    ]
+  "plugins": ["@kasaharu/ng"]
 }
 ```
-
 
 Then configure the rules you want to use under the rules section.
 
 ```json
 {
-    "rules": {
-        "no-ng-no-errors-schema/rule-name": 2
-    }
+  "rules": {
+    "@kasaharu/ng/no-ng-no-errors-schema": "error"
+  }
 }
 ```
-
-## Supported Rules
-
-* Fill in provided rules here
-
-
-
-
-
