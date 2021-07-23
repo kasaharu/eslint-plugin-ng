@@ -10,7 +10,8 @@
   "author": "kasaharu",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha tests --recursive"
+    "test": "mocha tests --recursive",
+    "publish": "npm publish --access=public ./"
   },
   "dependencies": {
     "requireindex": "~1.1.0"
